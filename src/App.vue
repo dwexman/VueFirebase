@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app-container">
     <UserForm />
     <UserList />
   </div>
@@ -16,3 +16,15 @@ export default {
   },
 };
 </script>
+
+<style>
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #e8f1f2;
+  min-height: 100vh;
+}
+</style>
